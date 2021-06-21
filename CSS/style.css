@@ -1,0 +1,50 @@
+body {
+  margin: 20px;
+  line-height: 1;
+}
+
+.nav-list {
+  font-size: 0;
+  margin-bottom: 20px;
+}
+
+.nav-list-item {
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.nav-list-item :hover {
+  background-color: #3c805b;
+} 
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #47986d;
+  padding: 10px 20px;
+  border: 1px solid #3e8b61;
+  min-width: 90px;
+}
+
+.sub-nav-list {
+  display: none;
+  position: absolute;
+}
+
+.nav-list-item:hover > .sub-nav-list {
+  display: block;
+} 
+
+.sup-nav-list{
+  position: absolute;
+  display: none;
+  left: 132px;
+  bottom: -83px;
+}
+
+.sub-nav-list-item:hover > .sup-nav-list {
+  display: block;
+} 
